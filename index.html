@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <style>
+
+  *{
+    margin:0px;
+    padding: 0px;
+  }
+  /*-----------------------------------------------------------------------navbar------------------------------------------------------------------------  */
+  .header{
+    font-size: 20px;
+  }
+
+  .home__navbnar > a{
+    color: white;
+  }
+
+  .brand-image{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    margin-left: 30px;
+  }
+/* ----------------------------------------------------------------------PARALLOX------------------------------------------------------------------- */
+
+.parralox{
+  position:relative;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+  .parralox1{
+    background-image: url('images/image5.jpeg');
+    height:750px;
+  }
+
+.text{
+position: absolute;
+top: 300px;
+left: 600px;
+color: white;
+line-height: 30px;
+
+}
+
+
+  .parralox2{
+    background-image: url('images/image6.jpg');
+    height: 500px;
+      background-position: center!important;
+  }
+
+
+  .tcenter{
+    position: absolute;
+    top: 40%;
+    left: 250px;
+    text-align: center;
+  }
+
+  /*------------------------------------------------------------------------footer------------------------------------------------------ */
+  .footer{
+    margin-top: 50px;
+    padding:50px;
+    background-color: silver;
+  }
+  </style>
+  </head>
+  <body>
+    <div class="header">
+
+
+      <div class="parralox parralox1">
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark home__navbnar">
+
+          <a class="navbar-brand" href="#"> 
+            <img src="https://www.flaticon.com/svg/static/icons/svg/265/265725.svg" class="brand-image"/>  
+          </a>
+          <button class="navbar-toggler" type="button" data-collapse="toggle" data-target="#datasupportedcontent"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+              <ul class="navbar-nav ml-auto">
+                
+                <li class="navbar-item active mr-5">
+                  <a class="navbar-link" href="#" style="color: white"> Home</a>
+                </li>
+
+                <li class="navbar-item mr-5">
+                  <a class="navbar-link" href="#" style="color: white"> watch video </a>
+                  </li>
+
+              <li class="navbar-item mr-5">
+                <a class="navbar-item" href="">
+                  <button type="button" class="btn btn-primary">Buy Now</button>
+                  </a>
+                </li>
+                </ul>
+              </div>
+          </nav>
+        <div class="text">
+          <h1> <b>Travell with us </b></h1>
+          <p> Explore the world in any direction<p>
+            <button class="btn btn-danger"> Info </button>
+            <button class="btn btn-danger"> Ways to explore </button>
+        </div>
+</div>
+  <div class="container">
+  <div class="card mt-5" style="border: hidden;">
+    <div class="card-body">
+      <h1 class="card-title">  Our Journal </h1>
+      <p class="card-text"> Anything u would like to say about the journal.</p>
+        <p class="card-text"> If you want to tyo something more in another paragraph...</p>
+    </div>
+    </div>
+
+
+  <div class="card-group mt-3" style="font-size: 14px;">
+
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text"> Wayne rooney is the best player in the world. </p>
+        <p class="card-text"> Wayne rooney is the Highest goal scorrer of Manchesterall time. </p>
+        <p class="card-text"> Remember the name Wayne Rooney. </p>
+        <button class="btn" style="color:skyblue;"> Read more  <i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="images/image1.jpg" alt="image1">
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text"> Wayne rooney is the best player in the world. </p>
+            <p class="card-text"> Wayne rooney is the Highest goal scorrer of Manchester United . </p>
+            <p class="card-text"> Remember the name Wayne Rooney. </p>
+            <button class="btn" style="color:skyblue;"> Read more <i class="fas fa-arrow-right"></i> </button>
+            </div>
+          </div>
+
+    </div>
+
+    <div class="card-group" style="font-size: 14px;">
+
+        <div class="card">
+          <img class="card-img-top m-0" src="images/image4.jpg" alt="image1">
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text"> Wayne rooney is the best player in the world. </p>
+              <p class="card-text"> Wayne rooney is the Highest goal scorrer of Manchester United of all time. </p>
+              <p class="card-text"> Remember the name Wayne Rooney. </p>
+              <button class="btn" style="color: skyblue;"> Read more <i class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top m-0" src="images/image4.jpg" alt="image1">
+              </div>
+
+      </div>
+      <div class="card  m-5 p-5"  style="border: hidden; line-height: 1.5;">
+        <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam et quasi, dignissimos culpa rerum non corporis neque fuga nihil? Illo iure, nesciunt sunt fugiat vero tempora aspernatur iste, repudiandae? Molestias qui commodi, ut rerum recusandae, fugit cumque suscipit dolorem tenetur dolore, cupiditate voluptatibus. Mollitia dolorum, quae, doloribus, itaque dignissimos veritatis a amet aliquid cum veniam minus. Repudiandae, facilis, delectus?</p>
+        </div>
+    </div>
+
+    <div class="parralox parralox2">
+      <div class="container tcenter">
+        <div class="row">
+          <div class="col-md-4">
+        <h1 style="color: rgb(31, 2, 2)"> Do u wanna go?</h1>
+        </div>
+        <div class="col-md-8">
+          <form>
+            <div class="form-group row">
+              <div class="col-md-8">
+              <label for="inputPassword2" class="sr-only">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Email Adress">
+            </div>
+            </div>
+            <div class="col-md-6">
+            <button type="submit" class="btn btn-primary mb-2">I want</button>
+            </div>         
+            </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+        <!-- <div class="container mt-5">
+          <div class="card-deck" style="color:black;">
+
+            <div class="card bg-info">
+              <h1 class="card-title"> Southern Countries </h1>
+              <p class="card-text"> Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.</p>
+                <button class="btn" style="color:skyblue; text-align:left;"> Read more  <i class="fas fa-arrow-right"></i></button>
+              </div>
+
+            <div class="card bg-success">
+              <h1 class="card-title"> Southern Countries </h1>
+              <p class="card-text"> Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.</p>
+              <button class="btn" style="color:skyblue; text-align:left;"> Read more  <i class="fas fa-arrow-right"></i></button>
+            </div>
+
+            <div class="card bg-danger">
+              <h1 class="card-title"> Southern Countries </h1>
+              <p class="card-text"> Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.</p>
+                <button class="btn" style="color:skyblue;text-align:left;"> Read more  <i class="fas fa-arrow-right"></i></button>
+            </div>
+
+            </div>
+
+            <div class="container mt-2" style="margin: 5px 30px;">
+                <i class="fas fa-quote-left" style="float:left; font-size: 50px;"></i><br><br>
+                <p class="card-text" style="text-align:left; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur facilis expedita cum iste voluptate itaque doloribus molestias numquam natus voluptates, molestiae tempora praesentium ratione dicta laudantium, excepturi voluptatibus, assumenda repellendus!</p>
+                   <blockquote>- National geography </blockquote>
+                 </div> -->
+
+                <!-- <div class="card-deck mt-5">
+
+                  <div class="card">
+                    <h1 class="card-title">We offer different ways to travel</h1>
+                    <p class="card-title">Click any text to edit or style it. Select text to insert a link. Click blue "Gear" icon in the top right corner to hide/show buttons, text, title and change the block background.</p>
+                    <button class="btn btn-info"> corporate html template</button>
+                  </div>
+
+                  <div class="card" >
+                    <img src="images/image4.jpg" class="card-img-top" height="300px">
+                    <div class="card-body">
+                      <h1 class="card-title">Travel by air</h1>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet.</p>
+                        <button class="btn" style="color:skyblue; text-align:left;"> Read more  <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+
+
+                  <div class="card">
+                    <img src="images/image6.jpg" class="card-img-top" height="300px">
+                    <div class="card-body">
+                      <h1 class="card-title">Travel by air</h1>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet.</p>
+                        <button class="btn" style="color:skyblue; text-align:left;"> Read more  <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+ -->
+              </div>
+                <div class="card" style="text-align: center; border:hidden; margin: 10px 25px;">
+                  <div class="card-body">
+                    <h1 class="card-title">Read Our Blog </h1>
+                    <p class="card-text"> Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Officia officiis possimus
+tempore veniam iste hic qui corrupti explicabo at error totam.</p>
+
+                  </div>
+
+                  <div class="card-deck" style="text-align:center; margin-botton: 50px;">
+
+                    <div class="card">
+                      <img src="images/image7.jpg" class="card-img-top" alt="nature"  height="300px">
+                      <div class="card-body">
+                        <h1 class="card-title"> Spring </h1>
+                          <p class="card-title">Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet.</p>
+                          <button class="btn" style="color:skyblue; text-align:left;"> Read more  <i class="fas fa-arrow-right"></i></button>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="images/image8.jpeg" class="card-img-top" alt="nature"  height="300px">
+                      <div class="card-body">
+                        <h1 class="card-title"> waterfall </h1>
+                          <p class="card-title">Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet.</p>
+                          <button class="btn" style="color:skyblue; text-align:left;"> Read more  <i class="fas fa-arrow-right"></i></button>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="images/image9.jpeg" class="card-img-top" alt="nature" height="300px">
+                      <div class="card-body">
+                        <h1 class="card-title"> Northen Light </h1>
+                          <p class="card-title">Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet.</p>
+                          <button class="btn" style="color:skyblue; text-align:left;"> Read more  <i class="fas fa-arrow-right"></i></button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+              <div class="footer">
+                <div class="container">
+                  <div class="row">
+
+                    <div class="col-lg-3">
+                      <h1> Corporate HTML5 templates</h1>
+                      <p>1234 Street Name </p>
+                      <p>City, AA 99999</p>
+                    </div>
+
+                    <div class="col-lg-3">
+                      <h1> Phone  </h1>
+                      <p>+1 (0) 000 0000 001</p>
+                      </div>
+
+                    <div class="col-lg-3">
+                      <h1> Email </h1>
+                      <p> Abcdefghij@gmail.com</p>
+                    </div>
+
+
+                    <div class="col-lg-3">
+                      <h1> Social </h1>
+                      <i class="fab fa-facebook"></i>
+                      <i class="fab fa-twitter"></i>
+                      <i class="fab fa-instagram"></i>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+  </body>
+
+  <script src="js/jquery-3.3.1.js"></script>
+
+
+<script>
+  $(document).ready(function(){
+
+    $(window).scroll(function(){
+        var scrl = $(window).scrollTop()
+        if (scrl > 00) {
+            $(".navbar").css("background","rgba(255,255,255,0.7)");          
+        }
+        else{
+            $('.navbar').css('background','rgba(255,255,255,0.9)')
+        };
+    });
+});
+
+  </script>
+</html>
